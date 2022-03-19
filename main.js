@@ -81,7 +81,7 @@ function my_keydown(e)
 	
 	function up()
 	{
-		if(ball_y<=1050)
+		if(ball_y<=220)
 {
 ball_y = ball_y - block_image_height;
  console.log("block image height = " + block_image_height);
